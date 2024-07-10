@@ -7,7 +7,7 @@ for number in numbers:
 
 ######################################
 # Number of levels in the half-pyramid
-n = 5
+n = 3
 # Outer loop for each level
 for i in range(1, n + 1):
     # Inner loop to print stars
