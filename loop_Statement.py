@@ -5,9 +5,18 @@ numbers = [1, 2, 3, 4, 5]
 for number in numbers:
     print(number)
 
-
-
-
+######################################
+# Number of levels in the half-pyramid
+n = 5
+# Outer loop for each level
+for i in range(1, n + 1):
+    # Inner loop to print stars
+    for j in range(i):
+        print("*", end="")
+    # Move to the next line after each level
+    print()
+    
+######################################
 # List of numbers
 numbers = [1, 2, 3, 4, 5]
 
@@ -20,7 +29,7 @@ for number in numbers:
 
 print("The sum of the numbers is:", total_sum)
 
-
+###########################################
 
 
 # Multiplication table (1 to 5)
@@ -30,7 +39,7 @@ for i in range(1, 6):
     print()
 
 
-
+##########################################
 
 
 # Dictionary of student grades
@@ -40,7 +49,7 @@ grades = {'Alice': 90, 'Bob': 85, 'Charlie': 92}
 for student, grade in grades.items():
     print(f"{student}: {grade}")
 
-
+#########################################
 # Number of levels in the pyramid
 n = 5
 
